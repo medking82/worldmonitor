@@ -273,8 +273,8 @@ before executing reviewed fork code.
 
 ### Verify the changed path
 
-Use the [code and check map](AGENTS.md#find-the-code-and-its-checks) to select the
-required gates. Run focused checks first and heavy checks sequentially. Keep useful
+Use the commands in `package.json` and the CI workflow to select relevant checks.
+Run focused checks first and heavy checks sequentially. Keep useful
 regression coverage. Remove a check only with evidence that its protection is
 obsolete, redundant, or ineffective.
 
